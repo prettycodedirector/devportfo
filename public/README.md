@@ -85,3 +85,12 @@ Thank you for visiting my portfolio! 🌟
 - **Contact Information**: Easy access for potential employers or collaborators to reach you.
 
 Feel free to modify any part of this template to better fit your style or add any additional information relevant to your portfolio!
+
+
+## 🌐 Follow Me
+
+Stay connected and follow me on social media:
+
+- [Instagram]([https://www.instagram.com/](https://instagram.com/devendiran_maker_offi))  devendiran_maker_offi  (replace `yourusername` with your actual Instagram username)
+- [Twitter]([https://twitter.com/yourusername](https://x.com/DirectorDevend1?t=Ql6mWuztofUQB6KIz9vNiw&s=08))  (replace `yourusername` with your actual Twitter username)
+
