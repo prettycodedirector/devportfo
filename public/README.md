@@ -40,8 +40,10 @@ Create a new service and template in your Email.js dashboard.
 Obtain your User ID, Service ID, and Template ID.
 In your project, create a .env file and add the following variables:
 
-VITE_EMAILJS_USER_ID=your_user_id
-VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_USER_ID=your_user_id,
+
+VITE_EMAILJS_SERVICE_ID=your_service_id,
+
 VITE_EMAILJS_TEMPLATE_ID=your_template_id
 
 
