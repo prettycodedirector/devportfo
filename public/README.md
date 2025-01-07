@@ -25,29 +25,50 @@ To get a local copy up and running, follow these steps:
  2.  Navigate to the project directory:
     cd devportfo
 
-3.Install dependencies:
+ 3. Install dependencies:
 
   npm install 
 
-4.Run the development server:
+ 4. Run the development server:
 
     npm run dev
 
+ 5.  Set up Email.js:
+
+Sign up at Email.js and create a new account.
+Create a new service and template in your Email.js dashboard.
+Obtain your User ID, Service ID, and Template ID.
+In your project, create a .env file and add the following variables:
+
+VITE_EMAILJS_USER_ID=your_user_id
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+
+
 
     💻 Technologies Used
-HTML: For structuring the web pages.
+
+HTML: For structuring the web pages. 
+
 CSS: For styling and layout.
+
 Preact: A fast alternative to React for building user interfaces.
+
 Vite: A build tool that provides a faster and leaner development experience.
+
 Bootstrap: For responsive design and pre-built components, including the navbar.
+
 Font Awesome: For icons to enhance the visual appeal of the portfolio.
+
 JavaScript: For interactivity and dynamic content.
 
+Email.js: For handling email sending functionality. And more...
+
+
 🤝 Contributing
+
 Contributions are welcome! If you have suggestions or improvements, please feel free to submit a pull request or open an issue.
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 📫 Contact
 For inquiries, please reach out to me at your-email@example.com.
