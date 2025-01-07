@@ -1,0 +1,36 @@
+
+
+#home {
+    background-color: var(--bg-color);
+    padding-top: 250px;
+    width: 100%;
+    color: var(--textcolor);
+}
+.home-sub{
+    width: 98%;
+    height: 415px;
+    text-align: center;
+}
+
+.home-btn{
+    width: 150px; 
+    margin: 5px;
+    height: 45px;
+    
+    text-align: center;
+    border-radius: 25px;
+    font-size: 15px;
+    box-shadow: #0000008f 0px 15px 40px 10px;
+    
+    
+    
+}   
+
+
+button>img{
+    box-shadow: rgb(4, 1, 10) 0px 1px 10px 2px;
+    padding: 5px ;
+    margin-left: 8px;
+    border-radius: 50px;
+
+}

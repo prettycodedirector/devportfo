@@ -1,0 +1,35 @@
+.about-container{
+    padding-top: 60px;
+    border-top: 10px solid greenyellow;
+    background-color: var(--bg-color);
+    color: var(--textcolor);
+}
+.about{   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.profile-image img {
+    background-color: rgb(210, 210, 228);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 180px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+}
+.item-card{
+    padding-top: 0%;
+    margin: 1rem;
+    place-items: center;
+    width:90%;
+}
+.text{
+    margin-left: 20px;
+}

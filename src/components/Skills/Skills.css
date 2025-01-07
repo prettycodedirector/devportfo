@@ -1,0 +1,32 @@
+.skills-con{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: var(--bg-color);
+    border-top: 10px solid greenyellow;
+    color: var(--textcolor);
+}
+.item{
+    margin: 10px;
+    color: #fff;
+    border: none;
+    background-color:#eb6354;
+    font-weight: 500;
+    width: max-content;
+    padding: 5px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 3px 30px 2px;
+}
+
+.flex-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.skills-item{
+    place-items: center;
+    
+}
+.item-con{
+    width: 90%;
+}
