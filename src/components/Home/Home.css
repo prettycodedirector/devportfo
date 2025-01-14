@@ -5,6 +5,7 @@
     padding-top: 250px;
     width: 100%;
     color: var(--textcolor);
+    font-family: 's;
 }
 .home-sub{
     width: 98%;
@@ -13,7 +14,7 @@
 }
 
 .home-btn{
-    width: 150px; 
+    width: max-content; 
     margin: 5px;
     height: 45px;
     

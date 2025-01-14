@@ -41,7 +41,7 @@ const ContactForm = () => {
       </form>
       <footer >
       <div className='info mt-5  text-white '>
-        <ul className='in1'>
+        <ul className=' '>
           <li><strong>Email : </strong> <span href="mailto:devendiran@example.com">devendirane2@gamil.com</span></li>
           <li><strong>Phone : </strong> <span href="tel:+911234567890">+91 6374512055</span></li>
           <li><strong>LinkedIn : </strong> <span href="https://linkedin.com/in/devendiran" target="_blank" >linkedin.com/in/devendirane2</span></li>

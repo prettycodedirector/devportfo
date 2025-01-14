@@ -30,7 +30,8 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-sm  navbar-expand-sm" id="nav">
             <div className="container">
-                <h1 className="nav-brand h3 p-1" href="#">{nav.brand}</h1>
+                
+                <h1 className="nav-brand h2 pt-2 text-center" href="#">{nav.brand}</h1>
                 <span
                     className="navbar-toggler"
                     id="navbar-toggler"

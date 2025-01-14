@@ -4,7 +4,7 @@ import profile from "../.././assets/resume-img.jpg"
 
 
 const aboutData = {
-    
+
     Name: "Devendiran E",
     Role: 'MERN Fullstack Web Developer / React UI Developer',
     Education: `BCA - Bachelor of Computer Applications,\n Pachaiyappa's College for Men (University of Madras), Chennai-30  \n Percentage: 83%`,
@@ -40,23 +40,23 @@ const About = () => {
                             Whether it's building modern web apps, optimizing code performance, or creating intuitive UI/UX experiences, I'm driven by a passion for tech and innovation.
                         </p>
                         <div className='row d-flex g-3'>
-                            
-                        <p className='h6 col-3'>Name : </p><p className='col-9'>{aboutData.Name}</p>
-                        <p className='h6 col-3'> Role : </p><p className='col-9'> {aboutData.Role}</p>
-                        
-                        <p className='h6 col-3'>Education :</p>
-                        <p className='col-9'>{aboutData.Education.split("\n").map((line, index) => (<p  key={index}>{line}</p>))}
-                        </p>
 
-                        <p className='h6 col-3'>Projects :</p>
-                        <p className='col-9'>{aboutData.Projects.split("\n").map((line,index)=>(<p key={index}>{line}</p>))}</p>
+                            <p className='h6 col-3'>Name : </p><p className='col-9'>{aboutData.Name}</p>
+                            <p className='h6 col-3'> Role : </p><p className='col-9'> {aboutData.Role}</p>
+
+                            <p className='h6 col-3'>Education :</p>
+                            <p className='col-9'>{aboutData.Education.split("\n").map((line, index) => (<span key={index}>{line}</span>))}
+                            </p>
+
+                            <p className='h6 col-3'>Projects :</p>
+                            <p className='col-9'>{aboutData.Projects.split("\n").map((line, index) => (<span key={index}>{line}</span>))}</p>
                         </div>
                     </div>
                 </div>
 
             </div>
         </div>
-    )
+    );
 };
 
 export default About;
