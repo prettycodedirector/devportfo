@@ -2,10 +2,10 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='footer-con'>
       <footer >
-      <div className='info mt-5  text-white '>
-        <ul className=' '>
+      <div className='info  text-white '>
+        <ul >
           <li><strong>Email : </strong> <span href="mailto:devendiran@example.com">devendirane2@gamil.com</span></li>
           <li><strong>Phone : </strong> <span href="tel:+911234567890">+91 6374512055</span></li>
           <li><strong>LinkedIn : </strong> <span href="https://linkedin.com/in/devendiran" target="_blank" >linkedin.com/in/devendirane2</span></li>
@@ -13,7 +13,7 @@ const Footer = () => {
           <li><strong>Location : </strong> Chennai / villuppuram , TamilNadu , India</li>
         </ul>
         
-        <div className='in2' style={{ display: "flex", gap: "20px",  }}>
+        <div  >
       {/* Mail */}
       <a href="mailto:devendirane2@gmail.com" target="_blank" >
         <i className="icon-footer bi bi-envelope-fill" style={{ color: "#D44638" }}></i>
@@ -42,6 +42,7 @@ const Footer = () => {
       <em>Copyright  <i className='bi s bi-c-circle'></i> 2024 .</em>
       <br /><em>Createdy by Devendiran , All Rights Reserved .</em>
       </div>
+      
     </div>
   )
 }

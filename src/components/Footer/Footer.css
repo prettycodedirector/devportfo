@@ -1,3 +1,7 @@
+.footer-con{
+    margin: 0%;
+}
+
 .icon-footer{
     position: relative;
     
@@ -12,6 +16,15 @@
 .icon-footer:hover{
     padding:8px  10px;
     box-shadow: hsla(253, 100%, 50%, 0.561) 0px 2px 10px 4px;
+}
+.info{
+    padding: 40px;
+    place-items: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .copy-con{
     font-family: none;letter-spacing: 1px;
@@ -29,3 +42,9 @@
     font-weight: 700;
     font-size: 20px;
 }
+
+
+li{
+    list-style:none;
+}
+

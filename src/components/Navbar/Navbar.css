@@ -36,26 +36,30 @@ img {
 
 
 .active {
-    border-bottom:1px solid #fff;width: max-content;
-    border-top:1px solid #fff;width: max-content;
+    /* border-bottom:1px solid green;width: max-content;
+    border-top:1px solid green;width: max-content; */
     border-radius: 100px;
     border-left: none;
     margin: 0%;
     background:green;
-    
+    margin: 3px;
+
 }
 .nav-item{
     margin: 3px;
-    
+    width: max-content;
     
 }
 .nav-item:hover{
-    border-bottom:1px solid #fff;width: max-content;
-    border-top:1px solid #fff;width: max-content;
+    
     border-radius: 100px;
     border-left: none;
     margin: 0%;
+    background:rgb(35, 6, 110);
     margin: 3px;
+    
 }
+
+
 
 

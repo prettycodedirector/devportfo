@@ -50,16 +50,16 @@ export default function Navbar() {
                     isMenuOpen?'show':''}`} id="navbar-navbar">
                     <ul className="navbar-nav  ms-auto">
                         <li data-value="home" onClick={handleClick} className={` nav-item ${active === "home" ? "active" : ""}`}>
-                            <a className="nav-link text-light" href="#home"><i className='bi bi-house'></i> Home</a>
+                            <a className="nav-link " style={{color:'white' }} href="#home"><i className='bi bi-house'></i> Home</a>
                         </li>
                         <li data-value="about" onClick={handleClick} className={` nav-item ${active === "about" ? "active" : ""}`}>
-                            <a className="nav-link text-light" href="#about"><i className='bi bi-person'></i> About</a>
+                            <a className="nav-link " style={{color:'white' }} href="#about"><i className='bi bi-person'></i> About</a>
                         </li>
                         <li data-value="skills" onClick={handleClick} className={` nav-item ${active === "skills" ? "active" : ""}`}>
-                            <a className="nav-link text-light" href="#skills"><i className='bi bi-journal-code'></i> Skills</a>
+                            <a className="nav-link  "style={{color:'white' }}  href="#skills"><i className='bi bi-journal-code'></i> Skills</a>
                         </li>
                         <li data-value="contact" onClick={handleClick} className={` nav-item ${active === "contact" ? "active" : ""}`}>
-                            <a className="nav-link text-light" href="#contact"><i className='bi bi-telephone'></i> Contact</a>
+                            <a className="nav-link " style={{color:'white' }} href="#contact"><i className='bi bi-telephone'></i> Contact</a>
                         </li>
                     </ul>
                 </div>
