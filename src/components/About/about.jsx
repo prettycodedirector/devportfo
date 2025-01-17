@@ -19,7 +19,7 @@ const About = () => {
     return (
         <div className=" about-container " id='about' >
 
-            <h3 className='h3'>About Me</h3>
+            <h3 className='h3'>About Me:</h3>
             <div className='about'>
                 <div className=" item-card   ">
                     <div className="profile-image">

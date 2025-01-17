@@ -1,0 +1,31 @@
+.icon-footer{
+    position: relative;
+    
+    font-size: 24px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+
+    padding:5px 5px 3px 6px;
+    box-shadow: hsla(130, 82%, 36%, 0.56) 0px 1px 10px 4px;
+}
+.icon-footer:hover{
+    padding:8px  10px;
+    box-shadow: hsla(253, 100%, 50%, 0.561) 0px 2px 10px 4px;
+}
+.copy-con{
+    font-family: none;letter-spacing: 1px;
+    color: white;
+    font-weight: 600;
+    padding: 5px 0 30px;
+    background-color: var(--navbg-color);
+    box-shadow: hsla(0, 0%, 100%, 0.561) 0px -1px 20px -2px inset;
+}
+.copyright-sm{
+    
+    height: 10px; 
+    width:10px;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 20px;
+}

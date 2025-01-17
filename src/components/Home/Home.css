@@ -2,7 +2,8 @@
 
 #home {
     background-color: var(--bg-color);
-    padding-top: 250px;
+    padding: 250px 20px 20px 20px;
+    
     width: 100%;
     color: var(--textcolor);
     font-family: 's;

@@ -4,7 +4,7 @@ import arrowImg from '../../assets/arrow-down.svg'
 const Home = () => {
     const downloadFunction = () => {
         const a = document.createElement('a')
-        a.href = './src/assets/devendiran_resume.pdf'
+        a.href = './devendiran_resume.pdf'
         a.download = 'devendirane_resume.pdf'
         a.click()
     }

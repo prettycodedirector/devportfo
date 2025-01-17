@@ -5,7 +5,7 @@ import closeimg from '../../assets/x.svg';
 import './Navbar.css';
 
 export default function Navbar() {
-    const [isMenuOpen, setisMenuOpen] = useState(true);
+    const [isMenuOpen, setisMenuOpen] = useState(false);
     const [active, setActive] = useState("home");
 
     function toggleMenu() {

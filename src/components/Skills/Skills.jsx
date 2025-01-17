@@ -11,7 +11,7 @@ export default function Skills() {
   }
   return (
     <div className="skills-con" id='skills'>
-      <p className='skill-title h3 '>Skills</p>
+      <p className='skill-title h3 '>Skills:</p>
       <div className='skills-item'>
         <div className='item-con'>
           <p className="h6">Programming Languages :- </p>

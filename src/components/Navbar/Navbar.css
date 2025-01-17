@@ -33,9 +33,7 @@ img {
     margin: 0;
     padding: 0px;
 }
-.navbar-collapse {
-    transition: all 1.3s ease;
-}
+
 
 .active {
     border-bottom:1px solid #fff;width: max-content;

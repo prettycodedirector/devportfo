@@ -1,5 +1,6 @@
 .about-container{
-    padding-top: 60px;
+    
+    padding: 60px 20px 20px 20px;
     border-top: 10px solid greenyellow;
     background-color: var(--bg-color);
     color: var(--textcolor);
@@ -18,6 +19,7 @@
     background-color: rgb(210, 210, 228);
     background-blend-mode: multiply;
     background-size: cover;
+    place-items: center;
     height: 180px;
     width: 150px;
     border: 1px solid black;
