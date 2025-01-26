@@ -15,18 +15,19 @@
     
 }
 .profile-image{
-    display: flex; 
-    float:center;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
 }
 .profile-image img {
     background-color: rgb(210, 210, 228);
     background-blend-mode: multiply;
     background-size: cover;
-    
     height: 180px;
     width: 150px;
     border: 1px solid black;
     border-radius: 50%;
+   
     
 }
 .item-card{

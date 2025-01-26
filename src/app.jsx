@@ -18,12 +18,12 @@ export function App(){
     
     <div onChange={toggleScroll} className="appCss">
     <Navbar/>
-    <Router>
-    <Home path='/' />
-    <About path='/about'/>
-    <Skills path='/skills'/>
-    <Contact path='/contact'/>
-    </Router>
+   
+    <Home />
+    <About />
+    <Skills />
+    <Contact />
+    
     
     <Footer/>
     </div>

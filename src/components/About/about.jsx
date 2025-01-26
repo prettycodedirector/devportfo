@@ -18,17 +18,19 @@ const aboutData = {
 const About = () => {
     return (
         <div className=" about-container " id='about' >
-
+            
             <h3 className='h3'>About Me:</h3>
-            <div className='about'>
-                <div className=" item-card   ">
-                    <div className="profile-image">
+            <div className="profile-image">
                         {/* You can add your profile picture here */}
                         <img
                             src={profile}
                             alt="Profile"
                         />
                     </div>
+            <div className='about'>
+                
+                <div className=" item-card   ">
+                    
                     <div className="pt-2">
                         <p>
                             Hi, I’m <strong>Devendiran</strong>, a passionate and dedicated Full-Stack Developer specializing in the MERN stack (MongoDB, Express, React, Node.js).
