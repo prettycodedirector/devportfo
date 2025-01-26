@@ -20,7 +20,7 @@ const Home = () => {
                 <h1><span className='h5 px-2'>hello</span>{data.name}</h1>
                 <p>{data.description}</p>
                 <div>
-                    <a href="/contact" ><button  style={{backgroundColor:"#ee6c4d",fontWeight:'400'}} className='text-light btn rounded-pill home-btn mx-4 ' type='button'   >Contact Me <img className='' src={phoneImg} alt="" /></button></a>
+                    <a href="#contact" ><button  style={{backgroundColor:"#ee6c4d",fontWeight:'400'}} className='text-light btn rounded-pill home-btn mx-4 ' type='button'   >Contact Me <img className='' src={phoneImg} alt="" /></button></a>
                     <button style={{backgroundColor:"#ee6c4d",fontWeight:'400'}} className='text-light btn rounded-pill home-btn' onClick={downloadFunction} type='button  '
                     >Resume <img className='' src={arrowImg} alt="" /></button>
                 </div>
