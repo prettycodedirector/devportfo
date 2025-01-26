@@ -14,12 +14,15 @@
     
     
 }
-
+.profile-image{
+    display: flex; 
+    float:center;
+}
 .profile-image img {
     background-color: rgb(210, 210, 228);
     background-blend-mode: multiply;
     background-size: cover;
-    place-items: center;
+    
     height: 180px;
     width: 150px;
     border: 1px solid black;

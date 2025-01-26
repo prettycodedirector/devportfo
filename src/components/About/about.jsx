@@ -49,7 +49,7 @@ const About = () => {
                             </p>
 
                             <p className='h6 col-3'>Projects :</p>
-                            <p className='col-9'>{aboutData.Projects.split("\n").map((line, index) => (<span key={index}>{line}</span>))}</p>
+                            <p className='col-9'>{aboutData.Projects.split("\n").map((line, index) => (<span key={index}>{line}<br></br></span> ))}</p>
                         </div>
                     </div>
                 </div>
