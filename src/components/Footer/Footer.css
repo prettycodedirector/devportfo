@@ -1,50 +1,71 @@
-.footer-con{
-    margin: 0%;
-}
-
-.icon-footer{
-    position: relative;
-    
-    font-size: 24px;
-    border: 1px solid white;
-    border-radius: 50px;
-    margin: 5px;
-
-    padding:5px 5px 3px 6px;
-    box-shadow: hsla(130, 82%, 36%, 0.56) 0px 1px 10px 4px;
-}
-.icon-footer:hover{
-    padding:8px  10px;
-    box-shadow: hsla(253, 100%, 50%, 0.561) 0px 2px 10px 4px;
-}
-.info{
-    padding: 40px;
-    place-items: center;
-    background-color: black;
+.footer-con {
+    background-color: #222;
+    padding: 2rem 1rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .info-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.copy-con{
-    font-family: none;letter-spacing: 1px;
-    color: white;
-    font-weight: 600;
-    padding: 5px 0 30px;
-    background-color: var(--navbg-color);
-    box-shadow: hsla(0, 1%, 19%, 0.561) 0px -1px 20px -2px inset;
-}
-.copyright-sm{
-    
-    height: 10px; 
-    width:10px;
-    border-radius: 50%;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-
-li{
-    list-style:none;
-}
-
+    gap: 1.5rem;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .contact-list li {
+    margin: 0.4rem 0;
+  }
+  
+  .contact-list a {
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+  
+  .contact-list a:hover {
+    text-decoration: underline;
+    color: #ee6c4d;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .social-icons a {
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+  }
+  
+  .copy-con {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  /* Mobile View */
+  @media (max-width: 600px) {
+    .contact-list {
+      font-size: 0.95rem;
+    }
+  
+    .social-icons {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .copy-con {
+      text-align: center;
+      font-size: 0.85rem;
+    }
+  }
+  

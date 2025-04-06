@@ -1,39 +1,30 @@
-import './Skills.css'
+import './Skills.css';
 
 export default function Skills() {
   const skillObj = {
-    ProgrammingLanguages: 'JavaScript (ES6+)',
-    FrontEnd: 'React.js, HTML, CSS, Bootstrap',
-    BackEnd: 'Node.js, Express.js',
-    database: 'MongoDB, Mongoose,MySQL',
-    versionControl: 'Git, GitHub',
-    Tools: 'Git, GitHub,Canva'
-  }
+    'Programming Languages': ['JavaScript (ES6+)', 'SQL'],
+    'Frameworks & Libraries': ['React.js', 'Node.js', 'Express.js', 'Bootstrap'],
+    'Database Technologies': ['MongoDB', 'Mongoose', 'MySQL'],
+    'Version Control': ['Git', 'GitHub'],
+    'Development Tools': ['Visual Studio Code', 'Canva', 'Netlify'],
+    'Markup & Styling': ['HTML5', 'CSS3'],
+  };
+
   return (
-    <div className="skills-con" id='skills'>
-      <p className='skill-title h3 '>Skills:</p>
-      <div className='skills-item'>
-        <div className='item-con'>
-          <p className="h6">Programming Languages :- </p>
-          <p className='item'>{skillObj.ProgrammingLanguages}</p>
-          <p className="h6">Front-End Development :-</p>
-          <ul className="flex-item">{skillObj.FrontEnd.split(",").map((item, index) => (
-            <p className='item' key={index}>{item}</p>
-          ))}</ul>
-          <p className="h6">Back-End Development :-</p>
-          <ul className="flex-item">{skillObj.BackEnd.split(",").map((item, index) => (
-            <p className='item' key={index}>{item}</p>
-            ))}</ul>
-          <p className="h6">Database Management :-</p>
-          <ul className="flex-item">{skillObj.database.split(",").map((item, index) => (
-            <p className='item' key={index}>{item}</p>
-            ))}</ul>
-          <p className="h6">Tools :- </p>
-          <ul className="flex-item">{skillObj.Tools.split(",").map((item, index) => (
-            <p className='item' key={index}>{item}</p>
-            ))}</ul>
-        </div>
+    <section id="skills" className="skills-container">
+      <h2 className="skills-title">Skills</h2>
+      <div className="skills-grid">
+        {Object.entries(skillObj).map(([category, skills], index) => (
+          <div className="skill-card" key={index}>
+            <h4 className="skill-category">{category}</h4>
+            <ul className="skill-list">
+              {skills.map((skill, idx) => (
+                <li key={idx} className="skill-item">{skill}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
-    </div>
-  )
+    </section>
+  );
 }

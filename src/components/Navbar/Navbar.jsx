@@ -60,7 +60,7 @@ export default function Navbar() {
                             <a className="nav-link  "style={{color:'white' }}  href="#skills"><i className='bi bi-journal-code'></i> Skills</a>
                         </li>
                         <li data-value="contact" onClick={handleClick} className={` nav-item ${active === "contact" ? "active" : ""}`}>
-                            <a className="nav-link " style={{color:'white' }} href="#contact"><i className='bi bi-telephone'></i> Contact</a>
+                            <a className="nav-link " style={{color:'white' }} href="#contact-"><i className='bi bi-telephone'></i> Contact</a>
                         </li>
                     </ul>
                 </div>

@@ -1,38 +1,122 @@
+.hero-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #fdfdfd;
+    padding: 2rem;
+    border-bottom: 5px solid tomato;
+}
 
-
-#home {
-    background-color: var(--bg-color);
-    padding: 250px 20px 20px 20px;
-    
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
     width: 100%;
-    color: var(--textcolor);
-    font-family: 's;
-}
-.home-sub{
-    width: 98%;
-    height: 415px;
-    text-align: center;
 }
 
-.home-btn{
-    width: max-content; 
-    margin: 5px;
-    height: 45px;
-    
-    text-align: center;
-    border-radius: 25px;
-    font-size: 15px;
-    box-shadow: #0000008f 0px 15px 40px 10px;
-    
-    
-    
-}   
+
+.hero-welcome {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2d2d2d;
+    margin-bottom: 1rem;
+}
+
+.hero-title span {
+    color: #ee6c4d;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 2rem;
+}
+.hero-buttons a {
+    text-decoration: none;
+}
 
 
-button>img{
-    box-shadow: rgb(4, 1, 10) 0px 1px 10px 2px;
-    padding: 5px ;
-    margin-left: 8px;
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #ee6c4d;
+    border: none;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
     border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.hero-btn img{
+padding: 3px;
+border: 2px solid wheat; 
+border-radius: 50px;
+}
 
+.hero-btn:hover {
+    background-color: #ff774d;
+    transform: translateY(-2px);
+}
+
+.hero-image {
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: transparent;
+    box-shadow: 0 4px 30px tomato;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    
+    .hero-content {
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-image img {
+        max-width: 200px;
+        max-height: 200px;
+    }
 }
